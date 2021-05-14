@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif, arial;
+  color: white;
+}
+
+#nav {
+  background-color: black;
+  height: 5vh;
+}
+
+#bot {
+  bottom: 0;
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  background: black;
+}
+
+.links {
+  float: right;
+  display: block;
+  font-family: helvetica;
+}
+
+a {
+  margin: 8px;
+  color: white;
+  font-size: 2vh;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(62, 199, 230);
+}
